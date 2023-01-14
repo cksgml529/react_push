@@ -1,0 +1,17 @@
+:root {
+  --swiper-theme-color: #fff;
+}
+
+/* .swiper-pagination-bullet {
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 8px)
+  );
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 8px)
+  );
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+} */
