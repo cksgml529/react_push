@@ -12,7 +12,7 @@ const Container = styled.div`
   }
   p {
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 500;
     padding-bottom: 30px;
   }
   a {

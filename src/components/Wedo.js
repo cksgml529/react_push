@@ -80,7 +80,7 @@ const Container = styled.div`
     padding-bottom: 10px;
   }
   p {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
   }
