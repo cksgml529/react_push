@@ -11,8 +11,8 @@ import Top from "./components/Top";
 import Topbtn from "./components/Topbtn";
 
 function App() {
-  // const path = process.env.PUBLIC_URL;
-  const path = `https://cksgml529.github.io/react_coco`;
+  const path = process.env.PUBLIC_URL;
+  // const path = `https://cksgml529.github.io/react_coco`;
   return (
     <div className="App">
       <GlobalStyle />
