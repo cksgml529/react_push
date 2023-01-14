@@ -13,6 +13,7 @@ const Container = styled.div`
 
   h1 {
     margin: 5px 200px 5px 400px;
+    cursor: pointer;
   }
   .gnb {
     width: 40vw;
