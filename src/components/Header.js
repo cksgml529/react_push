@@ -29,6 +29,7 @@ const Container = styled.div`
     width: 8vw;
     font-weight: 500;
     text-align: center;
+    cursor: pointer;
 
     &:hover {
       color: #00529b;
