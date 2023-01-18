@@ -4,6 +4,7 @@ import logo from "../assets/images/logo.png";
 
 const Container = styled.div`
   background-color: #fff;
+  height: 60px;
   display: flex;
   align-items: center;
   padding: 20px 0;
@@ -17,8 +18,10 @@ const Container = styled.div`
   }
   .gnb {
     width: 40vw;
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 17px;
     position: relative;
   }
@@ -29,12 +32,16 @@ const Container = styled.div`
 
     &:hover {
       color: #00529b;
+      
     }
 
     &:hover .subMenu {
       opacity: 1;
-      transform: translateY(0);
+      transform: translateY(0); 
+      pointer-events: all;
+
     }
+
   }
   .subMenu {
     display: flex;
@@ -42,10 +49,12 @@ const Container = styled.div`
     width: 6.5vw;
     color: #fff;
     position: absolute;
-    top: 35px;
+    top: 45px;
     opacity: 0;
     transition: 0.4s;
     transform: translateY(-15px);
+    pointer-events: none;
+   
   }
   .gnb > li > ul > li {
     padding: 15px;
@@ -56,6 +65,7 @@ const Container = styled.div`
     z-index: 9999;
     &:hover {
       background-color: #00529b;
+      
     }
   }
   .gnb > li > ul > li:last-child {
