@@ -18,9 +18,11 @@ function Youtube() {
 
   useEffect(() => {
     axios.get(URL).then((json) => setVideo(json.data.items));
+    
+    
   }, []);
   return (
-    <Container>
+    <Container> 
       {video.map((vd) => {
         return (
           <iframe
@@ -29,7 +31,6 @@ function Youtube() {
             src="https://www.youtube.com/embed/P85raaEcR5g"
             title="YouTube video player"
             frameborder="0"
-            // allowfullscreen
           ></iframe>
         );
       })}
